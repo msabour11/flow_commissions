@@ -1,0 +1,52 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-10-04 11:40:39.813492",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "calculation_basis",
+  "commission_rule"
+ ],
+ "fields": [
+  {
+   "default": "Fixed Flat Amount",
+   "fieldname": "calculation_basis",
+   "fieldtype": "Select",
+   "label": "Calculation Basis",
+   "options": "Fixed Flat Amount\nPer Unit Rate (Qty * Amount)"
+  },
+  {
+   "fieldname": "commission_rule",
+   "fieldtype": "Table",
+   "label": "Commission Rule",
+   "options": "Commission Rule"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2026-10-04 12:45:00.000000",
+ "modified_by": "Administrator",
+ "module": "Flow Commissions",
+ "name": "Commission Rule Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
